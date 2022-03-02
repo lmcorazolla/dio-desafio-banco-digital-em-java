@@ -1,12 +1,15 @@
+
 public class Cliente {
 
-    private String nomeCompleto;
+    private String nome;
 
-    public String getNomeCompleto() {
-        return nomeCompleto;
+
+    public String getNome() {
+        return nome;
     }
 
-    public void setNomeCompleto(String nomeCompleto) {
-        this.nomeCompleto = nomeCompleto;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
+
 }
